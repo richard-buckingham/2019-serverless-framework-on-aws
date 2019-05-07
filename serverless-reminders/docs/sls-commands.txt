@@ -1,0 +1,13 @@
+
+-- deploy a service (stack)
+sls deploy
+
+-- deploy a function (lambda)
+sls deploy function dailyReminder
+
+
+-- remove a service (stack)
+sls remove
+
+-- invoke a function, with logging
+sls invoke --function dailyReminder --log
